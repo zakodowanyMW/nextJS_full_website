@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
-function BlogPost() {
+function BlogPost({params}) {
   return (
-    <div>BlogPost</div>
+    <div>BlogPost {params.id}</div>
   )
 }
 
